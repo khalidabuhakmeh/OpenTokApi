@@ -4,8 +4,9 @@
         <id>OpenTokApi</id>
         <version>1.0.0</version>
         <title>OpenTok Api</title>
-        <authors>Khalid Abuhakmeh</authors>
+        <authors>khalidabuhakmeh</authors>
         <owners>khalidabuhakmeh</owners>
+        <projectUrl>https://github.com/khalidabuhakmeh/OpenTokApi</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>OpenTok allows you to create live video experiences with the world's most dynamic API. Check it out at www.tokbox.com.</description>
         <summary>OpenTok allows you to create live video experiences with the world's most dynamic API. Check it out at www.tokbox.com.</summary>
@@ -20,5 +21,6 @@
     <files>
         <file src="content\app.config.transform" target="content\app.config.transform" />
         <file src="content\web.config.transform" target="content\web.config.transform" />
+        <file src="OpenTokApi.Core\bin\Release\OpenTokApi.Core.dll" target="lib\net40\OpenTokApi.Core.dll" />
     </files>
 </package>
